@@ -9,4 +9,4 @@ element.js and styles.css which then could be used as a sources for well-known l
 
 ## Testing
 
-You can test your custom element creating html file and referencing files mentioned above. In this example, custom element is named as <my-own-element>. Example how it is used is shown in test-custom-element.html.
+You can test your custom element creating html file and referencing files mentioned above. In this example, custom element is named as my-own-element. Example how it is used is shown in test-custom-element.html.

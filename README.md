@@ -1,27 +1,12 @@
 # TestCustomElements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project shows how custom elments can be generated using angular. After building this custom element, you can inject it and use it wherever you want.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+After every change, navigate to the folder where package.json is and run command npm run build:elements. This will generate two new files
+element.js and styles.css which then could be used as a sources for well-known link and script tags.
 
-## Running unit tests
+## Testing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can test your custom element creating html file and referencing files mentioned above. In this example, custom element is named as <my-own-element>. Example how it is used is shown in test-custom-element.html.
